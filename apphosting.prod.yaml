@@ -1,0 +1,30 @@
+runConfig:
+  cpu: 1
+  memoryMiB: 512
+  concurrency: 5
+
+env:
+-   variable: WEBHOOK_VERIFY_TOKEN
+    value: EAAVQtS6UmSYBO7gG2hlCA3nyjxVRdbRPF1DKohQ59CZAYrrB7gIYvBSY3sDtEDVUDGmZBqz2A960LcrZAC4eCZBYTZBZCZA3qrXWwDZCQHhgt6jfDGm8HRXNgrJHkNAlp2AS6Rq9ZCcZCwYo1Oka4V2PVFqdVKMIZBVc1rzny9BzTaOWZCam010LuuH6lwbdZClPXnNPgGgZDZD
+    availability:
+      -   BUILD
+
+-   variable: GRAPH_API_TOKEN
+    value: EAAVQtS6UmSYBO7gG2hlCA3nyjxVRdbRPF1DKohQ59CZAYrrB7gIYvBSY3sDtEDVUDGmZBqz2A960LcrZAC4eCZBYTZBZCZA3qrXWwDZCQHhgt6jfDGm8HRXNgrJHkNAlp2AS6Rq9ZCcZCwYo1Oka4V2PVFqdVKMIZBVc1rzny9BzTaOWZCam010LuuH6lwbdZClPXnNPgGgZDZD
+    availability:
+      -   BUILD
+
+-   variable: TOKEN_SYSTEM
+    value: LZ4v5pXg9Lk7T2hMn1aBq3F6w8RzYyQxP9uDvEoKsNlGjHfA==
+    availability:
+      -   BUILD
+
+-   variable: API_LOG
+    value: ttps://sgu.urf.com.uy:9000/UrfSap/apiv1/webhook/log
+    availability:
+      -   BUILD
+
+-   variable: API_ENABLE_NOTIFICATION
+    value: https://sgu.urf.com.uy:9000/UrfSap/apiv1/webhook/enableNotification
+    availability:
+      -   BUILD
